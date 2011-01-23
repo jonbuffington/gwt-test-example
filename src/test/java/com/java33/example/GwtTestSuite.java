@@ -14,28 +14,29 @@
  * limitations under the License.
  */
 
-package com.java33.example.client.application;
+package com.java33.example;
 
 import com.google.gwt.junit.tools.GWTTestSuite;
+import com.java33.example.client.application.ExampleGwtTC;
 import junit.framework.Test;
 import junit.framework.TestSuite;
 
 
 /**
  * From "Use GWTTestSuite padawan":
- *
+ * <p/>
  * GWTTestCase derived tests are slow. This is because the JUnitShell has to load the
  * module for each test (create the shell, hook into it, etc). GWTTestSuite mitigates
  * this by grouping all the tests that are for the same module
  * (those that return the same value for getModuleName) together and running them
  * via the same shell instance.
- *
+ * <p/>
  * We recommend to name your test suite GwtTestSuite.java so that the test filter picks it up,
  * but name the actual tests with a convention that Surefire will ignore by default - something
  * that does not start with GwtTest, and does not start or end with Test. For example MyClassTestGwt.java.
  * This way, gwt-maven-plugin picks up the Suite, and runs it, but does not also run individual
  * tests (and Surefire does not pick it up either)
- *
+ * <p/>
  * http://mojo.codehaus.org/gwt-maven-plugin/user-guide/testing.html
  */
 public class GwtTestSuite extends GWTTestSuite {

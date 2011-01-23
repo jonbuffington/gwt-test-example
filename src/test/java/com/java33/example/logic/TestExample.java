@@ -14,12 +14,11 @@
  * limitations under the License.
  */
 
-package com.java33.example.client.logic;
+package com.java33.example.logic;
 
 import com.google.gwt.user.client.ui.HasWidgets;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import com.java33.example.client.cdi.MockModule;
 import com.java33.example.client.presenter.ExamplePresenter;
 import org.junit.Assert;
 import org.junit.Test;

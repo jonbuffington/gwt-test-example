@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.java33.example.client.cdi;
+package com.java33.example.logic;
 
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.EventBus;
