@@ -141,9 +141,9 @@
   </build>
 
   <scm>
-    <connection>scm:git:git://github.com/chirino/resty-gwt.git</connection>
-    <developerConnection>${release-altGitURL}</developerConnection>
-    <url>http://github.com/chirino/resty-gwt</url>
+    <connection>scm:git:git://github.com/jonbuffington/gwt-test-example.git</connection>
+    <developerConnection>scm:git:git@github.com:jonbuffington/gwt-test-example.git</developerConnection>
+    <url>http://github.com/jonbuffington/gwt-test-example</url>
   </scm>
 
 </project>
