@@ -35,7 +35,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
     <!-- Convenience property to set the GWT version -->
-    <gwt.version>2.1.1</gwt.version>
+    <gwt.version>2.2.0</gwt.version>
     <!-- GWT needs at least java 1.5 -->
     <maven.compiler.source>1.5</maven.compiler.source>
     <maven.compiler.target>1.5</maven.compiler.target>
@@ -56,9 +56,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.googlecode.gwt.inject</groupId>
+      <groupId>com.google.gwt.inject</groupId>
       <artifactId>gin</artifactId>
-      <version>1.0</version>
+      <version>1.5.0</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -84,7 +84,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
-        <version>2.1.0-1</version>
+        <version>${gwt.version}</version>
         <!-- Plugin configuration. There are many available options, see gwt-maven-plugin
           documentation at codehaus.org -->        
         <executions>
